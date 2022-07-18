@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>test1</title>
+    <link href="/2022/07/19/test1/"/>
+    <url>/2022/07/19/test1/</url>
+    
+    <content type="html"><![CDATA[<h1 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h1><p>全空间 $\mathbb{X}$</p><ul><li><p>$\mathbf{R}$ 环: 一种<strong>集类</strong> ( 元素为子集 )</p><p>指：$\forall  E,F \in R, \text{s.t.} \begin{cases} E \cup  F \in R \ E-F \in R \end{cases}$</p></li><li><p><strong>集函数</strong></p><p>$\mu: R\ni E \to \mu(E) &#x3D; |E|_\mu\in \mathbb{R}\cup {+\infty}$</p></li><li><p><strong>测度</strong></p><p>若集函数$\mu$ 满足：</p><ol><li><p>非负性： $\mu(E) \leq 0, \forall E \in R $</p></li><li><p>对空集为0：$\mu(\phi) &#x3D;0$</p></li><li><p>可列可加性：$\forall {E_n}\subset R, E_i\cap E_j &#x3D;\phi \ (i\ne j)$ , 如有 $\bigcup_{n&#x3D;1}^{+\infty}\in R$ , 则有 </p><p>$|\bigcup_{n&#x3D;1}^{+\infty}E_n|_\mu$ $&#x3D; \sum_{n&#x3D;1}^{+\infty}|E_n|_\mu $</p><p>则称 $\mu$ 为测度</p></li></ol></li><li><p><strong>$\sigma$-环</strong></p><p>$\mathbf{S}$ 为 $\sigma$-环， 若 $\begin{cases} \forall {E_n} \subset S,\ &amp;\text{s.t.} \bigcup_{n&#x3D;1}^{+\infty} E_n \in S \ \forall E,F \in S, \ &amp;\text{s.t.} E-F \in S\end{cases}$</p></li></ul><p><strong>Remark</strong></p><ol><li><p>$\mathbb{X}$ : 抽象空间 </p><p>$\mathbb{R}^m$：m维 Eulid 空间</p></li></ol><p>   $\mathbb{R}^m \Leftarrow \text{距离外测度} \Leftarrow \text{外测度} \Rightarrow \mathbb{X}$ </p><ol start="2"><li><p>可列可加性 $\Rightarrow$ 有限可加性 $\Rightarrow$ 单调性</p><p>考虑：$\forall E,F \in R, \ E\cap F&#x3D;\phi, \ \mu(E\cup F)&#x3D;\mu(E) + \mu(F)$ ,只须将其他集合取空集</p><p>考虑：$E \subset F, F&#x3D;E\cup (F-E), \mu(F) &#x3D; \mu(E) + \mu(F-E) \geq \mu(E)$</p></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>Real Analysis</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Real Analysis</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/2022/07/18/hello-world/"/>
     <url>/2022/07/18/hello-world/</url>

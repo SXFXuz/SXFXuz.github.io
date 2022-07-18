@@ -16,21 +16,24 @@
   <meta name="author" content="SXFuz">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Welcome ! This is my very first blog.">
+    <meta name="description" content="测试markdown">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://example.com/2022/07/18/hello-world/index.html">
+<meta property="og:title" content="test1">
+<meta property="og:url" content="http://example.com/2022/07/19/test1/index.html">
 <meta property="og:site_name" content="SXF_uz">
-<meta property="og:description" content="Welcome ! This is my very first blog.">
+<meta property="og:description" content="测试markdown">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2022-07-18T13:13:12.068Z">
-<meta property="article:modified_time" content="2022-07-18T14:20:38.928Z">
+<meta property="og:image" content="http://example.com/img/test1.jpg">
+<meta property="article:published_time" content="2022-07-18T17:37:02.000Z">
+<meta property="article:modified_time" content="2022-07-18T18:49:22.485Z">
 <meta property="article:author" content="SXFuz">
+<meta property="article:tag" content="Real Analysis">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://example.com/img/test1.jpg">
   
   
   
-  <title>Hello World - SXF_uz</title>
+  <title>test1 - SXF_uz</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -189,13 +192,13 @@
   
 
 <div id="banner" class="banner" parallax=true
-     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+     style="background: url('/img/test1.jpg') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Hello World"></span>
+            <span id="subtitle" data-typed-text="test1"></span>
           
         </div>
 
@@ -206,8 +209,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-07-18 21:13" pubdate>
-          July 18, 2022 pm
+        <time datetime="2022-07-19 01:37" pubdate>
+          July 19, 2022 am
         </time>
       </span>
     
@@ -218,7 +221,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          30 words
+          921 words
         
       </span>
     
@@ -229,7 +232,7 @@
         
         
         
-          1 mins
+          8 mins
         
       </span>
     
@@ -267,12 +270,49 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">Hello World</h1>
+            <h1 style="display: none">test1</h1>
             
             
               <div class="markdown-body">
                 
-                <p>Welcome ! This is my very first blog. </p>
+                <h1 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h1><p>全空间 $\mathbb{X}$</p>
+<ul>
+<li><p>$\mathbf{R}$ 环: 一种<strong>集类</strong> ( 元素为子集 )</p>
+<p>指：$\forall  E,F \in R, \text{s.t.} \begin{cases} E \cup  F \in R \ E-F \in R \end{cases}$</p>
+</li>
+<li><p><strong>集函数</strong></p>
+<p>$\mu: R\ni E \to \mu(E) &#x3D; |E|_\mu\in \mathbb{R}\cup {+\infty}$</p>
+</li>
+<li><p><strong>测度</strong></p>
+<p>若集函数$\mu$ 满足：</p>
+<ol>
+<li><p>非负性： $\mu(E) \leq 0, \forall E \in R $</p>
+</li>
+<li><p>对空集为0：$\mu(\phi) &#x3D;0$</p>
+</li>
+<li><p>可列可加性：$\forall {E_n}\subset R, E_i\cap E_j &#x3D;\phi \ (i\ne j)$ , 如有 $\bigcup_{n&#x3D;1}^{+\infty}\in R$ , 则有 </p>
+<p>$|\bigcup_{n&#x3D;1}^{+\infty}E_n|_\mu$ $&#x3D; \sum_{n&#x3D;1}^{+\infty}|E_n|_\mu $</p>
+<p>则称 $\mu$ 为测度</p>
+</li>
+</ol>
+</li>
+<li><p><strong>$\sigma$-环</strong></p>
+<p>$\mathbf{S}$ 为 $\sigma$-环， 若 $\begin{cases} \forall {E_n} \subset S,\ &amp;\text{s.t.} \bigcup_{n&#x3D;1}^{+\infty} E_n \in S \ \forall E,F \in S, \ &amp;\text{s.t.} E-F \in S\end{cases}$</p>
+</li>
+</ul>
+<p><strong>Remark</strong></p>
+<ol>
+<li><p>$\mathbb{X}$ : 抽象空间 </p>
+<p>$\mathbb{R}^m$：m维 Eulid 空间</p>
+</li>
+</ol>
+<p>   $\mathbb{R}^m \Leftarrow \text{距离外测度} \Leftarrow \text{外测度} \Rightarrow \mathbb{X}$ </p>
+<ol start="2">
+<li><p>可列可加性 $\Rightarrow$ 有限可加性 $\Rightarrow$ 单调性</p>
+<p>考虑：$\forall E,F \in R, \ E\cap F&#x3D;\phi, \ \mu(E\cup F)&#x3D;\mu(E) + \mu(F)$ ,只须将其他集合取空集</p>
+<p>考虑：$E \subset F, F&#x3D;E\cup (F-E), \mu(F) &#x3D; \mu(E) + \mu(F-E) \geq \mu(E)$</p>
+</li>
+</ol>
 
                 
               </div>
@@ -281,6 +321,34 @@
             <div>
               <div class="post-metas my-3">
   
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/Real-Analysis/" class="category-chain-item">Real Analysis</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/Real-Analysis/">#Real Analysis</a>
+      
+    </div>
   
 </div>
 
@@ -290,8 +358,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Hello World</div>
-      <div>http://example.com/2022/07/18/hello-world/</div>
+      <div>test1</div>
+      <div>http://example.com/2022/07/19/test1/</div>
     </div>
     <div class="license-meta">
       
@@ -303,7 +371,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>Posted on</div>
-          <div>July 18, 2022</div>
+          <div>July 19, 2022</div>
         </div>
       
       
@@ -333,15 +401,15 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/07/19/test1/" title="test1">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">test1</span>
-                        <span class="visible-mobile">Previous</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
+                    
+                      <a href="/2022/07/18/hello-world/" title="Hello World">
+                        <span class="hidden-mobile">Hello World</span>
+                        <span class="visible-mobile">Next</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
                     
                   </article>
                 </div>
@@ -392,6 +460,12 @@
 
 
   
+
+
+  
+  
+
+
 
 
 
@@ -558,6 +632,40 @@
 
 
   <script>Fluid.plugins.imageCaption();</script>
+
+  
+      <script>
+        if (!window.MathJax) {
+          window.MathJax = {
+            tex    : {
+              inlineMath: { '[+]': [['$', '$']] }
+            },
+            loader : {
+              load: ['ui/lazy']
+            },
+            options: {
+              renderActions: {
+                insertedScript: [200, () => {
+                  document.querySelectorAll('mjx-container').forEach(node => {
+                    let target = node.parentNode;
+                    if (target.nodeName.toLowerCase() === 'li') {
+                      target.parentNode.classList.add('has-jax');
+                    }
+                  });
+                }, '', false]
+              }
+            }
+          };
+        } else {
+          MathJax.startup.document.state(0);
+          MathJax.texReset();
+          MathJax.typeset();
+          MathJax.typesetPromise();
+        }
+      </script>
+    
+
+  <script  src="https://lib.baomitu.com/mathjax/3.2.1/es5/tex-mml-chtml.js" ></script>
 
   <script  src="/js/local-search.js" ></script>
 
