@@ -1,0 +1,164 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}  */
+
+h1 {
+  font-size: 2em;
+  font-family: "Helvetica", "Arial", "Sans-Serif";
+  margin-left: 5px;
+}
+
+body {
+  margin: 60px auto;
+  width: 70%;
+  max-width: 1000px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  background-color: #ffffff;
+}
+
+/* body {
+  margin: 60px auto;
+  width: 40%;
+  max-width: 1000px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  background-color: #eee;
+}  */
+
+
+/* header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+} */
+
+/* .intro .name {
+  font-size: 5em;
+  font-weight: bold;
+} */
+
+.pic {
+  max-width: 30%;
+  max-height: 200px;
+  margin: 0 0 0 5%;
+}
+
+.pic img {
+  width: auto;
+  height: auto;
+  max-height: inherit;
+  max-width: 100%;
+}
+
+
+.intro .text div:not(.name) {
+  margin: 0.3em 0 0.3em 0.3em;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+hr {
+  border-width: 1.5px 0 0 0;
+  border-color: #aaa;
+  border-style: solid;
+  margin-top: 1em;
+}
+
+ul.pub {
+  list-style: none;
+  padding-left: 0;
+}
+ul.award{
+  list-style: none;
+  padding-left: 0;
+}
+ul.teaching{
+  list-style: none;
+  padding-left: 0;
+}
+ul.service {
+  list-style: none;
+  padding-left: 0;
+}
+/* ul.pub li {
+  border: 1px solid #aaa;
+  border-radius: 15px;
+  margin: 10px 0 10px 0;
+  display: flex;
+  position: relative;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+} */
+ul.pub li a.title {
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 75, 167);
+}
+a:hover {
+  text-decoration: underline;
+}
+
+
+.profile-header img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.profile-header h1 {
+  margin-top: 10px;
+  font-size: 2em;
+}
+
+.profile-header p {
+  margin-top: 10px;
+}
+
+.social-links a {
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+/* section {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+
+h2 {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin-bottom: 15px;
+}
